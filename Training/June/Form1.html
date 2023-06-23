@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Travel Reservation Form using HTML</title>
+    <h1>Travel Reservation Form</h1>
+  </head>
+  <body>
+    <strong>* Marked fields are denotes Mandatory</strong><br />
+    <br />
+    <form action=" " target="_blank" method="get">
+    <fieldset>
+      <label> Full Name:* </label><br />
+      <input type="text" placeholder="Firstname  LastName" /><br />
+      <br />
+      <label> Email Address:*</label><br />
+      <input type="email" placeholder="EMAIL-ID" required /><br />
+      <br />
+      <label> Select Tour Package*</label><br />
+      <select id="Choose 1">
+        <option value="Choose 1">Select a tour package:</option>
+        <option value="GOA">Goa</option>
+        <option value="Maldives">Maldives</option>
+        <br />
+        <br />
+      </select>
+      <br />
+      <br />
+      <label for=" Arrival date"> Arrival date*:</label><br />
+      <input type="date" dateformat="d/m/y" /><br />
+      <br />
+
+      <label> Number of people*</label><br />
+      <input type="number" id="number" value="" max="10" min="2" size="10"/><br />
+      <br />
+      <label> What would you like to avail?*</label><br>
+      <label for="c1">Flyboarding</label>
+      <input type="checkbox" id="c1" name="c1" value="Flyboarding"><br>
+      <label for="c2">Sky-Diving</label>
+      <input type="checkbox" id="c2" name="c2" value="Sky-Diving"><br>
+      <label for="c3">Sight-seeing</label>
+      <input type="checkbox" id="c3" name="c3" value="Sight-seeing"><br>
+      <label for="c4">Dance-Party</label>
+      <input type="checkbox" id="c4" name="c4" value="Dance-Party"><br>
+      <br>
+      <label> Discount coupan code </label><br />
+      <input type="text" id="d1" name="coupan" value="" placeholder="Enter your coupan_code"/><br />
+      <br>
+      <label> Terms & condition*</label><br />
+      <label for="radio1"> I agree</label>
+      <input type="radio" id="radio1" name="terms"  value="I agree">
+      <label for="radio2" >I disagree</label>
+      <input type="radio" id="radio2" name="terms"  value=" "><br>
+      <br>
+      <button class="btn-submit">Submit Reservation</button>
+      </fieldset>
+
+    </form>
+  </body>
+</html>

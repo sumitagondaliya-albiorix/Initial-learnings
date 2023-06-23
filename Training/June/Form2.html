@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loan Application form</title>
+    <h2 style="text-align: center; font-size: xx-large;">Loan application</h2>
+    <h1 style="background-color:rgb(152, 169, 172); size: 2px; text-align:center;">Applicant's Details</h1>
+</head>
+<body>
+    <form id="pdetails">
+        <label> First Name:</label>
+        <input type="text" id="fname" value="" height="200px"><br>
+        <label> LAst Name:</label>
+        <input type="text" id="lname" value="" height="200px"><br>
+        <label> Email</label>
+        <input type="email" id="email" format="email" required><br>
+        <label> Social security</label>
+        <input type="text" id="security" value="" height="200px"><br>
+        <label> Day time phone</label>
+        <input type="text" id="daynum" value="" height="200px" validate><br>
+        <label> Evening Phone</label>
+        <input type="text" id="evenum" value="" height="200px"><br>
+    </form>
+    <div style="background-color:rgb(152, 169, 172); size: 2px; text-align:center; font-size:xx-large;"><strong>Loan Information</strong></div>
+    <label> Loan type</label>
+    <select id="Choose 1">
+        <option value="Choose 1">Automobile</option>
+        <option value="Choose 1"> Home</option>
+        <option value="Choose 1">Student</option>
+        </select><br>
+        <label for="amount"> Loan amount</label>
+        <input type="number" id="amount" name="lamnt"><br>
+        <br>
+        <label>Description</label>
+        <textarea rows="4" cols="30"></textarea><br>
+<br>
+<label>Submit Application</label>
+    <button onclick="alert(Loan Request registered)">Apply for loan</button>
+</body>
+</html>
