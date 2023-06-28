@@ -1,0 +1,88 @@
+<!-- World Wide Web Consortium (W3C) created CSS. 
+ ->CSS made a process easy-peacy for developers and designers
+ ->By making changes in external CSS file a whole look of web page changes.
+ ->Main difference between CSS and HTML-> :HTML is created to describe content of webpage while CSS is created
+  for formatting that HTML page to make it creative and excellent user experiance. */
+  /* Synatx :Selecter and Declaration block
+  ->Selector means:area or id ,part of page where you want to apply particular style
+  ->Declaration means which style you want to create  ? and it comes with property-value pair -->
+
+  <!DOCTYPE html>
+  <html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS Fundamentals.css">
+    <title>CSS Fundamentals</title>
+    <style>
+        p { 
+                color:blue;
+                text-align: center;
+        }
+        #p1{
+            font-size:25px ;
+            color: #000;
+            text-align: left;
+        }
+        .center{
+            text-align: end;
+            color: rgb(12, 11, 10);
+            height: 50px;;
+            width: auto;
+        }
+        h1.center{
+            font-size: large;
+            color: blue;
+            padding-top: 50px;
+  padding-right: 30px;
+  padding-bottom: 50px;
+  padding-left: 80px;
+  box-sizing: content-box;
+
+        }
+        *{
+            text-align: center;
+            color: blueviolet;
+            font-size: larger;
+            border-style: dashed;
+            border-width: 10px 20px; 
+            border-color: aqua;
+            border-top-style: groove;
+            border-radius: 12px;
+        
+        }
+        h1,p{
+            background-color:#f9a63c;
+            font-weight: 200;
+            font-style: italic;
+            
+        }
+        body{
+            background: #f9a63c no-repeat right;
+            }
+            h2 {
+  border: 5px solid red;
+}
+h1{
+margin: 25px 50px 75px 100px;}
+
+    </style>
+  </head>
+  <body>
+    <p> HELLOO CSS,THis is the basic example of CSS syntax</p>
+    <!-- CSS selector types -->
+    <!-- CSS id selector- " ID selector can not start with a number",To access id of HTML element write "#""  -->
+    <p id="p1">Hello ID selector</p>
+
+    <!-- CSS Class selector -->
+    <!-- Uses the HTML's specific class attribute and access by a .(period)class name-->
+    <p class="center"> helooo Classs selector</p>
+    <h1 class="center">specific HTML element's style using class selector</h1>
+    <!-- HEllo Universal selector (*) -->
+   <!-- Hello GRouping selector - seprated each element by comma for same style definition -->
+
+   <h2 style="font-size: x-large; color: cadetblue;">Inline CSS</h2>
+   <h6 style="color:chartreuse font-size 30px; margin: -10px;">NEgative value check </h6>
+   
+  </body>
+  </html>

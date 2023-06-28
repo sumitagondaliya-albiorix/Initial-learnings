@@ -1,0 +1,34 @@
+/* World Wide Web Consortium (W3C) created CSS.
+ ->CSS made a process easy-peacy for developers and designers
+ ->By making changes in external CSS file a whole look of web page changes.
+ ->Main difference between CSS and HTML-> :HTML is created to describe content of webpage while CSS is created
+  for formatting that HTML page to make it creative and excellent user experiance. */
+  /* Synatx :Selecter and Declaration block
+  ->Selector means:area or id ,part of page where you want to apply particular style
+  ->Declaration means which style you want to create  ? and it comes with property-value pair */
+
+  /* Three ways to add the CSS 
+  1)Inline -for a specfic element in the page using style attribute within tag
+  2)External-universal style for all the web pages which contains special css file with all the desired formatting
+  3)Internal-In the HTML page within style tag -if particular page wants to differ design
+  Each HTML page must include a reference 
+  to the external style sheet file inside the <link> element, inside the head section. */
+  body {
+    background-color: lightblue;
+  }
+  
+  h1 {
+    color: navy;
+    margin-left: 20px;
+    max-width: 200px;
+  }
+  /* Background shorthand property->Each property  binds together 
+  body {
+  background: #ffffff url("img_tree.png") no-repeat right top;
+} */
+/* 
+border shorthand property->
+p{
+    border:10px dotted blue
+}
+ */
