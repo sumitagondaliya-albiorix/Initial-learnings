@@ -31,4 +31,25 @@ border shorthand property->
 p{
     border:10px dotted blue
 }
+border-radius:15px / 50px
  */
+ /* Flax-box
+ Flex containers-> consists box to have flex items in it.
+ to apply flex model -> set the flex container(parent) to display:flex
+ container(parent element) Prooperties: 
+ flex-direction-> shifting direction of flex items
+flex-wrap-> If content has tob e wraped with each other(in cases of too large content)
+flex-flow->Shorthand property of flex-direction and flex wrap
+justify-content-> main axes-Horizonatally alignment of flex items(child element)
+align-items->verticle alignmnet of items
+align-content->extra space of cross axis
+ */
+
+ /* Flex item-> Direct child of parent flex (container)
+ Properties 
+order->order of the child element(flex item)
+flex-grow->which flex item need to be grow relative to other item
+flex-shrink->particular item will shrink
+flex-basis->initial length of the flex item(stating length)
+flex->shorthand of flex-grow.flexshrink,flex wrap
+align-self -> alignment on slected item*/
