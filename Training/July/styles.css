@@ -27,13 +27,13 @@ body {
     align-items: center;
 }
 
-li {
+.button li {
     display: inline;
     float: left;
     justify-content: space-between;
 }
 
-li a {
+.button li a {
     display: block;
     padding: 10px;
     text-decoration: none;
@@ -50,11 +50,10 @@ li a {
     margin: 0%;
     padding: 0%;
     display: flex;
+    justify-content: center;
 }
-.width-50{
-    width:50%;
+
     
-}
 .div .width-50{
     background-color: #420cd8;
     color: rgb(17, 16, 16);
@@ -66,8 +65,89 @@ li a {
     display: flex;
     justify-content: center;
     font-size:large;
-    
+                    
 }
 .col1{
   display: flex;
+  align-content: baseline;
+  justify-content: center;
+}
+.blog{
+   justify-content: center;
+   display: flex;
+}
+
+.bloghead{
+    display:flex;
+    justify-content: center;
+}
+.posthead{
+    display: flex;
+    margin: 10px;
+}
+.card{
+    margin-right:10px;
+}
+.News-lettter{
+    
+    font-size: larger;
+    display: flex;
+    justify-content: center;
+    margin:5px;
+}
+.subscription {
+    display: flex;
+    padding:10px;
+}
+.news{
+    background-color: rgb(211, 226, 231);
+    border-radius: 10px;
+    padding:20px;
+    width:50%;
+}
+.section1{
+    margin-left: 350px;
+    margin-top: auto;
+}
+
+.companies{
+   margin: 50px;
+   padding: 30px;
+   justify-content: center;
+}
+/* .company-parent{
+display: flex;
+justify-content: center; */
+
+.links{
+    color: black;
+   display: flex;
+    text-decoration: none;
+}
+ul:first-child{
+    color: black;
+    margin: 20px;
+}
+.product{
+ list-style-type: none;
+
+}
+.ul{
+    list-style-type: none;
+}
+.text-decoration a{ 
+    text-decoration: none;
+}
+.bottom{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.business{
+   display: flex;
+   justify-content: center;
+}
+.footer{
+    display: flex;
+    justify-content: center;
 }
