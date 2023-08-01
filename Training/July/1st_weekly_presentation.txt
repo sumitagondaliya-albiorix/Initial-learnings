@@ -1,0 +1,22 @@
+1)Hello My Greetings to you all.
+2)Introduction:Name,Locatoion and position
+3)Appreciation:Team-Lead, Mentor.
+ ->Appreciation about presentation method of organization
+  ->benefits of personal development.
+4)What I am presenting?:: The learings till the day since I joined 
+  ->Emphasize on learnings of this weak:    t
+Brief summary on Overall learnings-After an onboarding task,some installation and environment setup for technolgy I will learn.
+
+
+Let me start with the HTML: Elements,Attributes,Document type, Tags etc.
+In the HTML BLock element and Inline Element
+
+next concept was CSS:In the CSS, Styles,selectors,margins-paaddings,display,and box model,Forms
+In this week first initial days I made a layout from the figma using core HTML and CSS, which was i found a bit comprehnsive for me
+
+The concept I used in that layout is CSS background properties ,forms type,button, and tried to make it a responsive a few part of it.
+
+Yester day,I started with Javascript fundamentals.->which consists majorly syntaxes,usages,Importance.
+Varibles,Assignment ,Data types,
+TOday-Function
+ 
