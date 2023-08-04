@@ -1,0 +1,29 @@
+7 July 2023
+=>Do not hurry,6 months is for learning only.
+
+18 July 2023
+=> go at turtle speed but to win race needs to keep going, don't try to be horse.
+   They all will be at same place
+=>Think loop step by step and execute in mind.then write in script.
+
+25 July 2023 
+=>Array methods(find ,filter)
+=>write comments in the code always
+naming convention-camel case
+
+28 July 2023
+=> Focus on array and objects,Revision daily
+=> varibles also
+
+04 August 2023
+=>Naming convention of varible-function
+=>better comment 
+=>Formatting document
+=>write to-do on incomplete task in code.
+=>Do not write Inline style.
+=>Optional Channing
+=>br =dont use increases load on DOM
+=>use const instead of var 
+=>Give Return type(Ts)
+=>check array 
+=>Logic building
