@@ -27,3 +27,8 @@ naming convention-camel case
 =>Give Return type(Ts)
 =>check array 
 =>Logic building
+
+05 August 2023->Jayesh sir
+=>write "return" directly when no need to store in variable.
+=>testing ways: debugger & console.
+  debugger;
